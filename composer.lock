@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c8f57adf22a63fbb1f8e036b483a6d26",
+    "content-hash": "799d585622f54adfebc50801bf70ecbe",
     "packages": [
         {
             "name": "laminas/laminas-diactoros",
@@ -117,20 +117,20 @@
         },
         {
             "name": "league/container",
-            "version": "4.x-dev",
+            "version": "3.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/container.git",
-                "reference": "132f61499fc3a2e56f8d22193f2b515675e42831"
+                "reference": "7dc67bdf89efc338e674863c0ea70a63efe4de05"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/container/zipball/132f61499fc3a2e56f8d22193f2b515675e42831",
-                "reference": "132f61499fc3a2e56f8d22193f2b515675e42831",
+                "url": "https://api.github.com/repos/thephpleague/container/zipball/7dc67bdf89efc338e674863c0ea70a63efe4de05",
+                "reference": "7dc67bdf89efc338e674863c0ea70a63efe4de05",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2 || ^8.0",
+                "php": "^7.0 || ^8.0",
                 "psr/container": "^1.0"
             },
             "provide": {
@@ -140,16 +140,12 @@
                 "orno/di": "~2.0"
             },
             "require-dev": {
-                "phpstan/phpstan": "^0.11.8",
-                "phpunit/phpunit": "^8.5.8",
-                "roave/security-advisories": "dev-master",
+                "phpunit/phpunit": "^6.0",
                 "squizlabs/php_codesniffer": "^3.3"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.x-dev",
-                    "dev-4.x": "4.x-dev",
                     "dev-3.x": "3.x-dev",
                     "dev-2.x": "2.x-dev",
                     "dev-1.x": "1.x-dev"
@@ -167,7 +163,8 @@
             "authors": [
                 {
                     "name": "Phil Bennett",
-                    "email": "mail@philbennett.co.uk",
+                    "email": "philipobenito@gmail.com",
+                    "homepage": "http://www.philipobenito.com",
                     "role": "Developer"
                 }
             ],
@@ -188,7 +185,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-09-30T07:57:59+00:00"
+            "time": "2020-09-28T13:38:44+00:00"
         },
         {
             "name": "league/route",
@@ -575,9 +572,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "league/container": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
